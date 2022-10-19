@@ -7,7 +7,8 @@
 
 #chatOnboard,
 #todo-tab,
-.nav__tabs__bottom > div > :nth-child(2),
+.nav__tabs__top > :nth-child(3),
+.nav__tabs__bottom > :nth-child(2),
 .virtualized-scroll > :nth-child(n + 2),
 .msg-filters-bar,
 #contact-search > :nth-child(3),
@@ -49,8 +50,7 @@
 .quote-text,
 .data-list__label,
 .recent-display-name,
-.recent-header,
-.header-title {
+.recent-header {
   color: var(--custom-secondary) !important;
 }
 
@@ -63,7 +63,8 @@
 #richInput,
 .fr-center-top.flx.flx-al-c > :nth-child(3),
 .fr-center-top.flx > .flx.flx-al-c.w100 > :nth-child(3),
-.group-center-item__title__cate {
+.group-center-item__title__cate,
+.header-title {
   color: var(--custom-light) !important;
 }
 
