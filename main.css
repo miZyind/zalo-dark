@@ -49,7 +49,8 @@
 .quote-text,
 .data-list__label,
 .recent-display-name,
-.recent-header {
+.recent-header,
+.header-title {
   color: var(--custom-secondary) !important;
 }
 
