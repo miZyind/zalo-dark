@@ -18,7 +18,8 @@
 #headerBtns > :nth-child(2),
 #headerBtns > :nth-child(3),
 .flx.flx-al-c.w100 > :nth-child(n + 2),
-.scroll-content > :nth-child(n + 2) {
+.scroll-content > :nth-child(n + 2),
+.tds-banner-download__container {
   display: none !important;
 }
 
