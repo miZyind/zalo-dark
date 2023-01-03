@@ -79,7 +79,8 @@
 .group-center-item__title__cate,
 .header-title,
 .z--btn--text--tertiary,
-.recent-empty {
+.recent-empty,
+.z--btn--v2.btn-tertiary-neutral {
   color: var(--custom-light) !important;
 }
 
