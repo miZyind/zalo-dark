@@ -100,6 +100,7 @@
   border-color: var(--custom-border) !important;
 }
 
+#richInput,
 #container,
 #sidebarNav,
 #main-tab,
@@ -112,7 +113,8 @@
 .fr-center-top.flx,
 .rel.h100.w100,
 .rel.h100.w100 > :nth-child(2),
-.virtualized-scroll {
+.virtualized-scroll,
+.chat-input-btns {
   background-color: var(--custom-primary) !important;
 }
 
@@ -164,4 +166,8 @@
 
 .zl-avatar__group {
   box-shadow: unset !important;
+}
+
+.chat-box-input.highlight-v3 {
+  border-top: 1px solid var(--border) !important;
 }
