@@ -19,7 +19,9 @@
 #headerBtns > :nth-child(3),
 .flx.flx-al-c.w100 > :nth-child(n + 2),
 .scroll-content > :nth-child(n + 2),
-.tds-banner-download__container {
+.tds-banner-download__container,
+.chat-box-toolbar > :nth-child(n + 4),
+.normal-buttons-group > :nth-child(n + 2) {
   display: none !important;
 }
 
@@ -108,6 +110,8 @@
 #header,
 #messageView,
 #ztoolbar,
+#CHAT_BOX_BAR_ID,
+#chatInput,
 .conv-item,
 .chat-input__content,
 .fr-center-top.flx,
@@ -168,6 +172,7 @@
   box-shadow: unset !important;
 }
 
-.chat-box-input.highlight-v3 {
-  border-top: 1px solid var(--border) !important;
+#CHAT_BOX_BAR_ID,
+#chatInput {
+  border-top: 1px solid var(--custom-border) !important;
 }
