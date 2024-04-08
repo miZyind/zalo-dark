@@ -110,7 +110,7 @@
 #header,
 #messageView,
 #ztoolbar,
-#CHAT_BOX_BAR_ID,
+#chat-box-bar-id,
 #chatInput,
 .conv-item,
 .chat-input__content,
@@ -172,7 +172,7 @@
   box-shadow: unset !important;
 }
 
-#CHAT_BOX_BAR_ID,
+#chat-box-bar-id,
 #chatInput {
   border-top: 1px solid var(--custom-border) !important;
 }
